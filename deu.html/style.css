@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+box-sizing: border-box;
+font-family: "raleway" , "sans serif";
+}
+:root {
+--main-color: #0065FC;
+--main-bg-color: #F2F2F2;
+--filter-bg-color: #DEEBFF;
+}
+body {
+display: flex;
+justify-content: center;
+}
+.main-container{
+
+margin: 5px 10px;
+padding: 0px;
+
+}
+a{
+text-decoration: none;
+color: inherit;
+}
+.euro{
+font-weight: bold;
+}
 nav{
 display: flex;
 align-items: center;
