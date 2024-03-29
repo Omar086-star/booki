@@ -233,6 +233,43 @@ gap: 30px;
 
 /**********************EN section filthébergementres populaire**************************/
 /**********************start section acivitie******************************************/
+
+.section-activ{ 
+     margin-top: 70px;
+    padding: 0 62px;}
+    .section-activ .section-title{
+        padding: 0 10px;}
+.container-acivitie{
+display: flex;
+justify-content: center;
+justify-content: space-between;
+gap: 35px;
+margin-top: 30px;
+margin-bottom: 60px;
+}
+.section-title{
+font-size: 22px;
+font-weight: 700;
+padding:0 32px;
+margin-bottom: 30px;
+}
+.cadre-acivitie{
+width:297px ;
+height:439px ;
+border-radius: 20px;
+box-shadow: 0 0 16px #0000002e;
+}
+.cadre-acivitie img{
+width:297px ;
+height:380px ;
+border-radius: 20px 20px 0 0;
+}
+.title-bas{
+font-size: 16px;
+font-weight: 700;
+margin-left: 10px;
+}
+/**********************end section acivitie******************************************/
 /**********************start  footer*************************************************/
 footer{
 display: flex;
@@ -294,6 +331,19 @@ font-size: 14px;
 font-size: 13px;
 }
 /************end section popular**************/
+/************start section activite**************/
+.container-acivitie{
+gap: 30px;
+}
+.cadre-acivitie{
+width:193px ;
+height:270px ;
+}
+.cadre-acivitie img{
+width:193px ;
+height:200px ;
+}
+/************end section activite**************/
 @media (max-width:776px){
 
 .head-nav{
@@ -406,6 +456,26 @@ margin: 0;
 
 
 
+/**********************start section active****************************/
+
+
+
+.container-acivitie{
+display: flex;
+justify-content: center;
+flex-direction: column;
+gap: 30px;
+margin-top: 30px;
+}
+.cadre-acivitie{
+width:315px ;
+height:200px ;
+}
+.cadre-acivitie img{
+width:315px ;
+height:141px ;
+}
+/**********************end section active****************************/
 /**********************start footer****************************/
 
 footer{
