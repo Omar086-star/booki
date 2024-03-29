@@ -117,6 +117,22 @@ padding-right: 0 16px ;
 background-color: var(--filter-bg-color);
 }
 
+.info{
+display: flex;
+align-items: center;
+gap: 15px;
+padding: 0 32px;
+}
+.info a {
+width: 24px;
+height: 24px;
+border: 2px solid var(--main-bg-color);
+border-radius: 50%;
+color: var(--main-color);
+display: flex;
+align-items: center;
+justify-content: center;
+}
 /**********************start  footer*************************************************/
 footer{
 display: flex;
