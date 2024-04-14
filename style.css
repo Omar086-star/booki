@@ -507,21 +507,23 @@ padding: 0;
 }
 .héberg-populaires > div {
 border-radius: 20px;
-padding: 30px;
+
 box-sizing: border-box;border-radius:0;
 }
 .populaires , .héberg {
 max-width: 775px;
 gap: 20px;
 margin: 5px auto;
+padding: 0;
 }
 .héberg{
 background-color: white;
 border: none;
+
 }
 .section-title{
-padding: 0 20px;
-margin-bottom: 15px;
+padding: 0 50px 10px;
+margin-bottom: 5px;
 }
 .location-appartements .appartement{
 width: 335px;
@@ -531,22 +533,21 @@ width: 335px;
 height: 124px;
 }
 .title-afficher{
-    padding: 0px 20px;
+    padding: 0px 55px;
 }
 .populaires-title {
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
+gap: 25px;
 align-items: center;
-margin-bottom: -20px;
-margin-top:-20px;
+margin: 0;
+padding: 0;
 }
-.populaires .section-title{
-    margin-bottom: 30px;
-}
+
 .populaires-cards{
 justify-content: center;
 margin-top:5px;
-padding:0 5px 0 5px
+padding: 5px 5px 20px 5px;
 }
 
 .populaires-cards .card {
