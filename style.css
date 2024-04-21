@@ -276,7 +276,7 @@ padding: 0 5px;
     margin-top: 70px;
     padding: 0 62px;}
 .section-activ .section-title{
-padding: 0 10px;}
+padding: 0 ;}
 .container-acivitie{
 display: flex;
 justify-content: center;
@@ -519,7 +519,7 @@ border: none;
 
 }
 .section-title{
-padding: 0 50px 10px;
+padding: 0 20px 10px;
 margin-bottom: 5px;
 }
 .location-appartements .appartement{
@@ -583,7 +583,7 @@ margin: 0;
 /**********************start section active****************************/
 .section-activ{ 
     margin-top: 44px;
-    padding: 0 16px;}
+    padding: 0 23px;}
 
 
 .container-acivitie{
